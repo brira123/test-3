@@ -1,0 +1,60 @@
+/* write your CSS here */
+
+#logo {
+    height: 80px;
+    margin-right: 1em;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+/* .header {
+    font-size: 1em;
+} */
+.header {
+    color: black;
+}
+.card-body {
+    display: flex; 
+    width: 100%;
+}
+.bk-img {
+    margin-right: 1em;
+}
+.green {
+    color: #99b678;
+}
+.blue {
+    color: #043c75;
+}
+.card-footer {
+    background-color: #d4ecf9;
+    text-align: center;
+}
+.form-group {
+    display: inline-block;
+    float: right;
+}
+.input-group-text {
+    background-color: #44ace9;
+    color: white;
+}
+#txtNumber {
+    width: 5em;   
+    height: 35px; 
+    text-align: center;    
+}
+button {
+    cursor: pointer;
+}
+.card {
+    width: 100%;
+}
+.para {
+    color: #17497d;
+}
+@media (max-width: 732px) {
+    .card {
+        max-width: 100%;
+    }
+}
